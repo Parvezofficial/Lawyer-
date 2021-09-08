@@ -1,0 +1,35 @@
+@media(min-width:0px) and (max-width:575px){
+    .antony h1{
+        text-align: center;
+    }
+    .antony p{
+        text-align: center;
+    }
+    .antony a{
+        text-align: center;
+    }
+    .antony a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer ul{
+        margin-right: 36px;
+    }
+    .antony h1::before{
+        left: 50%;
+    }
+    .feature_down h1{
+        text-align: center;
+    }
+    .feature_down h1::before{
+        left: 48%;
+        bottom: 46px;
+    }
+    .feature h1{
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+
+}
